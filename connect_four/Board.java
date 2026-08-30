@@ -3,9 +3,9 @@ package connect_four;
 import connect_four.enums.DiscColor;
 
 public class Board {
-    private int rows;
-    private int columns;
-    private DiscColor[][] board;
+    private final int  rows;
+    private final int columns;
+    private final DiscColor[][] board;
 
     public Board(int rows, int columns) {
         this.rows = rows;
